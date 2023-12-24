@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as nps
 import matplotlib.pyplot as plt
 
-url = "https://github.com/Rachry/Dicoding/tree/c13b930d8dbfe22b6cf97172d97f13c49ac5ec16/Dataset"
+url = "https://github.com/Rachry/Dicoding.git"
 
 customers_df = pd.read_csv("Dataset\olist_customers_dataset.csv")
 products_df = pd.read_csv("Dataset\olist_products_dataset.csv")

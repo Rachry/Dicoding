@@ -3,12 +3,12 @@ import pandas as pd
 import numpy as nps
 import matplotlib.pyplot as plt
 
-url = "https://github.com/Rachry/Dicoding.git"
 
-customers_df = pd.read_csv("Dataset\olist_customers_dataset.csv")
-products_df = pd.read_csv("Dataset\olist_products_dataset.csv")
-orders_dataset_df = pd.read_csv("Dataset\olist_orders_dataset.csv")
-orders_item_dataset_df = pd.read_csv("Dataset\olist_order_items_dataset.csv")
+ 
+customers_df = pd.read_csv("https://github.com/Rachry/Dicoding/blob/0bcb1c8d5b6d47edd2c44da97d847ae30f8b909f/Dataset/olist_customers_dataset.csv")
+products_df = pd.read_csv("https://github.com/Rachry/Dicoding/blob/0bcb1c8d5b6d47edd2c44da97d847ae30f8b909f/Dataset/olist_products_dataset.csv")
+orders_dataset_df = pd.read_csv("https://github.com/Rachry/Dicoding/blob/0bcb1c8d5b6d47edd2c44da97d847ae30f8b909f/Dataset/olist_orders_dataset.csv")
+orders_item_dataset_df = pd.read_csv("https://github.com/Rachry/Dicoding/blob/0bcb1c8d5b6d47edd2c44da97d847ae30f8b909f/Dataset/olist_order_items_dataset.csv")
 
 orders_dataset_df.dropna(axis=0, inplace=True)
 orders_dataset_df.isnull().sum()
